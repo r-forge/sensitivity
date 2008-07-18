@@ -49,7 +49,7 @@ echo $contents; } ?>
 
 <p> Stay informed with the <strong>news page</strong> <a href="http://r-forge.r-project.org/news/?group_id=210">here</a>. </p>
 
-<p> Motivated developpers can join us, so feel free to contact us if you're interested in contribute (use the "Request to join" form on the project summary page). </p>
+<p> Motivated developers can join us, so feel free to contact us if you're interested in contribute (use the "Request to join" form on the project summary page). </p>
 
 </body>
 </html>
