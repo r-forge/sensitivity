@@ -43,9 +43,11 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> No content added. </p>
+<p> This is the <strong>developement homepage</strong> for the R package sensitivity. If you are looking for the latest stable version of the package, please check out the sensitivity page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a> </p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
+
+<p> Stay informed with the <strong>news page</strong> <a href="http://r-forge.r-project.org/news/?group_id=210">here</a>. </p>
 
 </body>
 </html>
