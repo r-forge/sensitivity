@@ -43,13 +43,13 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> This is the developement homepage for the R package sensitivity. If you are looking for the latest stable release of the package, please check out the page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a>. </p>
+<p> This is the development homepage for the R package sensitivity. If you are looking for the latest stable release of the package, please check out the page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a>. </p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/">here</a>. </p>
 
 <p> Stay informed with the <strong>news page</strong> <a href="http://r-forge.r-project.org/news/?group_id=210">here</a>. </p>
 
-<p> Motivated developers can join us, so feel free to contact us if you're interested in contribute (use the "Request to join" form on the project summary page). </p>
+<p> Motivated developers can join the project. Feel free to contact us if you're interested in contribute (use the "Request to join" form on the project summary page). </p>
 
 </body>
 </html>
