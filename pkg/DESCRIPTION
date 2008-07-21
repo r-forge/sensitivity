@@ -1,5 +1,5 @@
 Package: sensitivity
-Version: 1.4-1
+Version: 1.4-0
 Date: 2008-07-14
 Title: Sensitivity Analysis
 Author: Gilles Pujol
@@ -8,6 +8,6 @@ Depends: R (>= 2.7.0), boot
 Suggests: rgl
 Description: A collection of functions for factor screening and 
   global sensitivity analysis of model output.
-License: CeCILL-2.0
+License: GPL-2
 URL: http://sensitivity.r-forge.r-project.org/
 
