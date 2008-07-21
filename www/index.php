@@ -43,13 +43,22 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> This is the development homepage for the R package sensitivity. If you are looking for the latest stable release of the package, please check out the page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a>. </p>
+<hr>
+
+<p> This page is the package <tt>sensitivity</tt> project homepage. If you're looking for the latest stable release, please check out the page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a>. </p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/">here</a>. </p>
 
 <p> Stay informed with the <strong>news page</strong> <a href="http://r-forge.r-project.org/news/?group_id=210">here</a>. </p>
 
-<p> Motivated developers can join the project. Feel free to contact us if you're interested in contribute (use the "Request to join" form on the project summary page). </p>
+<p> Developers interested in contribute are welcome to <strong>join the project</strong>. <a href=""><strong>Request to join</strong></a>. </p>
+
+<p> If you like the package <tt>sensitivity</tt>, you may also be interested in the following R packages:
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/mlegp/index.html">mlegp</a>:Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots and sensitivity analysis. </li>
+<li>CompModSA: Sensitivity Analysis for Complex Computer Models (dowload it from <a href="http://www.stat.unm.edu/~storlie/">this page</a>).</li>
+</ul>
+</p>
 
 </body>
 </html>
