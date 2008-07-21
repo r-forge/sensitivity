@@ -56,7 +56,7 @@ echo $contents; } ?>
 <p> If you like the package 'sensitivity', you may also be interested in the following R packages:
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/mlegp/index.html">mlegp</a>: Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots and sensitivity analysis. </li>
-<li>CompModSA: Sensitivity Analysis for Complex Computer Models (dowload it from <a href="http://www.stat.unm.edu/~storlie/">this page</a>). </li>
+<li>CompModSA: Sensitivity Analysis for Complex Computer Models (download it from <a href="http://www.stat.unm.edu/~storlie/">this page</a>). </li>
 </ul>
 </p>
 
