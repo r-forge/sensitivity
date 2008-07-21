@@ -49,9 +49,9 @@ echo $contents; } ?>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/">here</a>. </p>
 
-<p> Stay informed with the <strong>news page</strong> <a href="http://r-forge.r-project.org/news/?group_id=210">here</a>. </p>
+<p> Stay informed with the <strong>news page</strong> <a href="http://<?php echo $domain; ?>/news/?group_id=<?php echo $group_id; ?>">here</a>. </p>
 
-<p> Developers interested in contribute are welcome to <strong>join the project</strong>. <a href=""><strong>Request to join</strong></a>. </p>
+<p> Developers interested in contribute are welcome to <strong>join the project</strong>. <a href="https://<?php echo $domain; ?>/project/request.php?group_id=<?php echo $group_id; ?>"><strong>Request to join</strong></a>. </p>
 
 <p> If you like the package <tt>sensitivity</tt>, you may also be interested in the following R packages:
 <ul>
