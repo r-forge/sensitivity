@@ -45,15 +45,15 @@ echo $contents; } ?>
 
 <hr>
 
-<p> This page is the package 'sensitivity' project homepage. If you're looking for the latest stable release, please check out the page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a>. </p>
+<p> If you're looking for the <strong>latest stable release</strong> of the package 'sensitivity', please check out the page on CRAN <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">here</a>. </p>
 
-<p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/">here</a>. </p>
+<p> The <strong>project summary page</strong> you can find <a href="http://r-forge.r-project.org/projects/sensitivity/">here</a>. </p>
 
-<p> Stay informed with the <strong>news page</strong> <a href="http://<?php echo $domain; ?>/news/?group_id=210">here</a>. </p>
+<p> Stay informed with the <strong>news page</strong> <a href="http://r-forge.r-project.org/news/?group_id=210">here</a>, and subscribe to the <strong>news mailing list</strong> (low traffic). <a href="https://lists.r-forge.r-project.org/cgi-bin/mailman/listinfo/sensitivity-news">[Subscribe]</a></p>
 
-<p> Developers interested in contribute are welcome to <strong>join the project</strong>. <a href="https://<?php echo $domain; ?>/project/request.php?group_id=210">[Request to join]</a> </p>
+<p> Developers interested in contribute are welcome to <strong>join the project</strong>. <a href="https://r-forge.r-project.org/project/request.php?group_id=210">[Request to join]</a> </p>
 
-<p> If you like the package 'sensitivity', you may also be interested in the following R packages:
+<p> You may also be interested in those packages:
 <ul>
 <li><a href="http://cran.r-project.org/web/packages/mlegp/index.html">mlegp</a>: Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots and sensitivity analysis. </li>
 <li>CompModSA: Sensitivity Analysis for Complex Computer Models (download it from <a href="http://www.stat.unm.edu/~storlie/">this page</a>). </li>
