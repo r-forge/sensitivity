@@ -21,7 +21,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	<link href="<?php echo $themeroot; ?>styles/estilo1.css" rel="stylesheet" type="text/css" />
   </head>
 
-<body>
+<body style="text-align: center">
+<div style="width: 650px;
+  margin: auto;
+  text-align: left">
 
 <! --- R-Forge Logo --- >
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
@@ -100,6 +103,7 @@ analysis. </li>
 
 <p>Last update: 24 aug 2009</p>
 
+</div>
 </body>
 
 </html>
