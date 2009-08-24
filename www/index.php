@@ -34,16 +34,17 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 <!-- end of project description -->
 
-<h1>Sensitivity project</h1>
+<h1>Sensitivity</h1>
 
-<p><em>A collection of functions for factor screening and global sensitivity analysis of model output.</em></p>
+<p><em>A collection of functions for factor screening and global sensitivity analysis of model output</em></p>
 
 <hr>
-
 
 <h2>Welcome to sensitivity project!</h2>
 
 <!-- <p> The <strong>project summary page</strong> you can find <a href="http://r-forge.r-project.org/projects/sensitivity/">here</a>. </p> -->
+
+<a href="http://r-forge.r-project.org/project/request.php?group_id=210"><img src="join.png" alt="Join the project" border="0" align="right"></a>
 
 <p>On this website, you'll find:</p>
 <ul>
@@ -54,37 +55,29 @@ traffic)</li>
 </ul>
 
 <p>
-<center><strong><a href="http://r-forge.r-project.org/projects/sensitivity/">&rarr; ENTER IN SENSITIVITY PROJECT</a></strong></center>
-</p>
+</p><center><strong><a href="http://r-forge.r-project.org/projects/sensitivity/">ENTER WEBSITE</a></strong></center>
 
 <p>Otherwise, if you're looking for the latest stable release of the package,
 you'd better check
 out <a href="http://cran.r-project.org/web/packages/sensitivity/index.html">"sensitivity"
 on CRAN</a>. </p>
 
-<h2>Join the project</h2>
+<h2>Integration in simulation platforms</h2>
 
-<p>Developers of new sensitivity analysis functions are welcome to
-join the project. If you are interested, feel free to contact the
-project administrators.</p>
-
-<h2>The sensitivity package has been integrated in several simulation platforms</h2>
-
-<p>In the sensitivity package, design generation and analysis
-functions are decoupled from the simulation model. As a consequence,
-the package has been integrated in several simulation plateforms:</p>
+<p>The decoupled architecture of the package has allowed to integrate
+ it in several simulation plateforms:</p>
 <ul>
 <li><a href="http://promethee.irsn.org/">Promethee</a> (IRSN):
 Promethee is basically a flexible and portable distributed computing
 engine designed for “real world” parametric calculation.</li>
-<li><a href="http://www.openturns.org">OpenTURNS</a>
+<li><a href="http://www.openturns.org/">OpenTURNS</a>
 (EDF/EADS/Phimeca): OpenTURNS is an Open source initiative to Treat
 Uncertainties, Risks’N Statistics in a structured industrial
 approach.</li>
 <li><a href="http://w3.avignon.inra.fr/mexico/index.php/Accueil">MEXICO</a>
 (INRA Avignon): Méthodes pour l'EXploration Informatique des modèles
 COmplexes.</li>
-<li><a href="http://vle.univ-littoral.fr">VLE</a> (Université du Littoral
+<li><a href="http://vle.univ-littoral.fr/">VLE</a> (Université du Littoral
 Côte d'Opale): The Virtual Laboratory Environment VLE is a software
 and an API for complex systems multi-modeling and simulation.</li>
 </ul>
@@ -105,7 +98,7 @@ analysis. </li>
 
 <hr>
 
-<p>Last update: 23 aug 2009</p>
+<p>Last update: 24 aug 2009</p>
 
 </body>
 
