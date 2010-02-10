@@ -1,18 +1,25 @@
-# Morris' OAT sub-routines. (See main file morris.R)
-#
-# Gilles Pujol 2006
+# Morris's OAT method sub-routines. (See main file morris.R)
 
-
-random.oat <- function(p, nl, jump) {
-  delta <- jump / (nl - 1) 
-  B <- matrix(0, nrow = p + 1, ncol = p)                 # orientation matrix
+random.oat <- function(p, nl, design.step) {
+  # orientation matrix B
+  B <- matrix(-1, nrow = p + 1, ncol = p)                 
   B[lower.tri(B)] <- 1
-  x.base <- matrix(nrow = p + 1, ncol = p)               # base point
-  D <- diag(sample(c(-1, 1), size = p, replace = TRUE))  # directions 
-  for (i in 1 : p) {                                    
-    x.base[,i] <- ((sample(nl[i] - jump[i], size = 1) - 1) / (nl[i] - 1))
+  # directions matrix D
+  D <- diag(sample(c(-1, 1), size = p, replace = TRUE)) 
+  # permutation matrix P
+  perm <- sample(p)
+  P <- matrix(0, nrow = p, ncol = p)
+  for (i in 1 : p) {
+    P[i, perm[i]] <- 1
   }
-  0.5 * ((2 * B - 1) %*% D + 1) %*% diag(delta) + x.base
+  # starting point
+  x.base <- matrix(nrow = p + 1, ncol = p)               
+  for (i in 1 : p) {                                    
+    x.base[,i] <- ((sample(nl[i] - design.step[i], size = 1) - 1) / (nl[i] - 1))
+  }
+  # grid step
+  delta <- design.step / (nl - 1)
+  return(0.5 * (B %*% P %*% D + 1) %*% diag(delta) + x.base)
 }
 
 
@@ -26,7 +33,9 @@ ee.oat <- function(X, y) {
     j <- ind.rep(i, p)
     j1 <- j[1 : p]
     j2 <- j[2 : (p + 1)]
-    ee[i,] <- (y[j2] - y[j1]) / rowSums(X[j2,] - X[j1,])
+	A <- X[j2,] - X[j1,]
+	b <- y[j2] - y[j1]
+	ee[i,] <- solve(A, b)
   }
   return(ee)
 }
